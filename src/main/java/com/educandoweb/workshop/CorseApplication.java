@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Corse1Application {
+public class CorseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Corse1Application.class, args);
+		SpringApplication.run(CorseApplication.class, args);
 	}
 
 }
