@@ -11,12 +11,11 @@ import com.educandoweb.workshop.repositories.UserRepository;
 
 @Service
 public class UserService {
-	
+
 	@Autowired
 	private UserRepository repository;
 	
-	
-	public List<User> findALL(){
+	public List<User> findAll() {
 		return repository.findAll();
 	}
 	
@@ -24,5 +23,4 @@ public class UserService {
 		Optional<User> obj = repository.findById(id);
 		return obj.get();
 	}
-	
 }
